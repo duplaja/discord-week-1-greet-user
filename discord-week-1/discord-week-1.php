@@ -35,8 +35,8 @@ if ( ! function_exists( 'discord_week_one_enqueue_styles' ) ) {
 	/**
 	 * Enqueues main plugin style.
 	 *
-	 * @param
-	 * @return
+	 * @param (none)
+	 * @return (none)
 	 */
 
 	add_action( 'wp_enqueue_scripts', 'discord_week_one_enqueue_styles' );
@@ -71,8 +71,8 @@ if (! function_exists( 'discord_week_one_modal_js')) {
 	 * For the sake of those initially learning, I've avoided using enqueue_script for this one.
 	 * For those interested, the process is very similar to enqueing the CSS file above.
 	 *
-	 * @param $redirect_to (WordPress redirect link)
-	 * @return $redirect_to (WordPress redirect link)
+	 * @param (none)
+	 * @return (none)
 	 */
 
 	add_action('wp_footer','discord_week_one_modal_js');
